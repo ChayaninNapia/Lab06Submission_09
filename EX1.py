@@ -41,7 +41,7 @@ color = (71, 211, 169 )
 
 while(run):
     screen.fill((255,255,255))
-    obj_1.draw(screen)
+    # obj_1.draw(screen)
     if btn.MouseIsOn() and not btn.MouseIsPressed():
         btn.color = (113, 116, 125)
     elif btn.MouseIsOn() and btn.MouseIsPressed():
